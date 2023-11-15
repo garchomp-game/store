@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+h1 {
+    color: blue;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+    color: blue;
+    border: none;
+}
+
+img {
+    width: 280px;
+    height: 250px;
+    margin: auto;
+}
+
+.dan {
+    clear: left;
+}
+
+.item {
+    width: 400px;
+    height: 500px;
+    margin: 0 20px;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.setumei {
+    padding: 0;
+    border: 2px solid black;
+}
+
+button {
+    background-color: blue;
+    width: 200px;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px auto;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}
+
+p {
+    margin: 0 10px;
+}
+
+#shirt {
+    background-color: pink;
+    border: 3px solid red;
+}
+
+#cart {
+    clear: left;
+    background-color: red;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 0px auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+    margin: 0 10px;
+}
