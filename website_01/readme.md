@@ -4,7 +4,8 @@
 
 ## 成果
 画像の通り
-<!-- TODO: 画像 -->
+![image](https://github.com/garchomp-game/store/assets/101523180/136329df-b029-42b3-b792-5deec1f077de)
+
 
 ## フィードバック
 jsで作成部分は
