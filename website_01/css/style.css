@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+h1 {
+color: #36a93b;
+text-align: center;
+
+}
+hr{
+    height: 10px;
+    width: 50%;
+    background-color: aqua;
+    }
+
+img {
+    width: 240px;
+    height: 150px;
+    margin: auto;
+    border: 5px solid gold;
+    
+    
+}    
+
+.syousai {
+    
+
+}
+
+.ku {
+    clear: left;
+    
+}
+
+.mov {
+    float:left;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    
+}
