@@ -13,7 +13,7 @@
 ## cmd
 - 起動方法  
 `Win+R→cmd→Enter`が一番モテるやり方
-- (ちょっと違うけど、)cmdはExplorerの、CUI版のようなもの
+- (ちょっと違うけど、)cmdはExplorerの、CUI版のようなもの  
 厳密にいうと、  
 ```
 cmdはCUIツールであり、ExplorerのCUI版としての機能も兼ねてる
