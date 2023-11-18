@@ -39,12 +39,11 @@ cmdはCUIツールであり、ExplorerのCUI版としての機能も兼ねてる
     - `copy`
     - `del`
     - `move`
+  - `explorer`  
+  →今いるフォルダをexplorerで開くコマンド
   - ネットワーク系
-  - `ping`
-  - `ipconfig`
-  - その他
-    - `explorer`  
-    →今いるフォルダをexplorerで開くコマンド
+    - `ping`
+    - `ipconfig`
 - リダイレクト  
 →コマンドの出力結果をテキストファイルに焼くこと  
 　結構よく使う
