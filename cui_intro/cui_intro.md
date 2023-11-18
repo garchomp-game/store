@@ -1,4 +1,7 @@
 # CUIの初歩
+## 対象者
+→日常用途以外の難しい操作をした事のない、Windowsユーザー
+
 ## GUIとCUI
 - GUI(Graphical User Interface)
   - 絵付きの画面
