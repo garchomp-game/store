@@ -26,18 +26,41 @@ cmdはCUIツールであり、ExplorerのCUI版としての機能も兼ねてる
 ![image](./img/explorer_cmd.png)
 
 - 超初歩的なコマンド
-  - `echo`
+  - `echo`  
+  →何をやるにもまずは"Hello, World!!"でしょ
   ```bat
   echo "Hello, World!!"
   ```
-  - `dir`
-  - `cd`
-  - `mkdir`
+  - ファイル操作系
+    - `dir`
+    - `tree`
+    - `cd`
+    - `mkdir`
+    - `copy`
+    - `del`
+    - `move`
+  - ネットワーク系
   - `ping`
-  - `explorer`  
-  →今いるフォルダをexplorerで開くコマンド
+  - `ipconfig`
+  - その他
+    - `explorer`  
+    →今いるフォルダをexplorerで開くコマンド
+- リダイレクト  
+→コマンドの出力結果をテキストファイルに焼くこと  
+　結構よく使う
+  - 簡単な例
+  ```bat
+  @rem ">"で新規作成
+  echo "Hello, World!!" > hello.txt
+  @rem ">>"で上書き
+  echo "上書きだよー" >> hello.txt
+  ```
+  - treeコマンドの出力結果をテキストに焼いてみる
+  ```bat
+  tree > tree.txt
+  ```
 - 環境変数と`%PATH%`  
-→これは多分まだ難しいからキーワードだけ頭の隅に置いといてもらえると...  
+→これは多分まだ難しいとは思うけど、大事だから頑張ってみる
   - 環境変数  
   プログラミングでいうところの変数と同じ。  
   システムを動かすのに必要な情報が変数として保持されている。  
