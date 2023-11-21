@@ -102,7 +102,7 @@ echo "Hello, World!!" > hello.txt
 rem ">"はそのまま上書きしてしまう(さっき入れた内容は消えてしまう。)
 echo "hoge" > hello.txt
 rem 上書きじゃなくて追記したいときは">>"を使う。
-echo "上書きだよー" >> hello.txt
+echo "追記だよー" >> hello.txt
 ```
 - treeコマンドの出力結果をテキストに焼いてみる
 ```bat
