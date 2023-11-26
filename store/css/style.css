@@ -59,6 +59,7 @@ img {
     padding: 0px;
     width: 80%;
     margin: 0;
+    float: left;
     
     
     
@@ -70,18 +71,20 @@ img {
 .syousai p {
     padding: 0px;
     margin: 3px;
+    
     border: solid black;
     width: 30%;
     
 }
 
 .rank {
-    width: 5%;
-    height: 80%;
+    width: 20%;
+    height: 20%;
     margin: 0;
-    padding: 0px;
-
+    padding-left: 30px;
+border: solid yellow;
     float: left;
+    font-size: 40px;
 
 }
 
@@ -98,9 +101,8 @@ body {
 
 
 .syousai button {
-    margin: 0;
-    padding: 0;
-    
+   
+   
 }
 
 .mozi {
@@ -108,7 +110,9 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    justify-content: center;
     border: solid black;
     display: flex;
-
+   
 }   
+
