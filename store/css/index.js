@@ -29,3 +29,31 @@ const on4 =()=> {
     document.getElementById("kazu4").innerText = parseInt(count) + 1;
 
 }
+  
+  
+  
+  var img_src = new Array("img/bad.jpg","img/syousai1.jpg");
+  var i = 0;
+
+  function openImg() {
+
+    if (i == 1) {
+      i = 0;
+    } else {
+      i ++;
+    }
+    document.getElementById("image").src = img_src[i];
+  }
+     
+  var img_src = new Array("img/bad.jpg","img/baki.jpg");
+  var i = 0;
+
+  function openImg2() {
+
+    if (i == 1) {
+      i = 0;
+    } else {
+      i ++;
+    }
+    document.getElementById("image2").src = img_src[i];
+  }
