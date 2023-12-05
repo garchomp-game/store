@@ -1,39 +1,22 @@
-const on =()=> {
+
+
+
+const on=(num)=> {
     //今のカウントを調べる
-    var count = document.getElementById("kazu1").innerText;
+   
+    var count = document.getElementById("kazu"+num).innerText;
     //カウントを1増やす
-    document.getElementById("kazu1").innerText = parseInt(count) + 1;
-
+    document.getElementById("kazu"+num).innerText = parseInt(count) + 1;
+    
 }
-
-const on2 =()=> {
-    //今のカウントを調べる
-    var count = document.getElementById("kazu2").innerText;
-    //カウントを1増やす
-    document.getElementById("kazu2").innerText = parseInt(count) + 1;
-
-}
-
-const on3 =()=> {
-    //今のカウントを調べる
-    var count = document.getElementById("kazu3").innerText;
-    //カウントを1増やす
-    document.getElementById("kazu3").innerText = parseInt(count) + 1;
-
-}
-
-const on4 =()=> {
-    //今のカウントを調べる
-    var count = document.getElementById("kazu4").innerText;
-    //カウントを1増やす
-    document.getElementById("kazu4").innerText = parseInt(count) + 1;
-
-}
+    
+  
+      
   
   
   
   var img_src = new Array("img/bad.jpg","img/syousai1.jpg");
-  var i = 0;
+  var i = 0; 
 
   function openImg() {
 
