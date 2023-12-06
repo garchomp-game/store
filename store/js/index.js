@@ -1,5 +1,5 @@
 
- const on=(num)=> {
+ const onClickNice=(num)=> {
 //今のカウントを調べる
 
    var count = document.getElementById("kazu"+num).innerText;
