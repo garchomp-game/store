@@ -1,118 +1,82 @@
 @charset "utf-8";
 
 h1 {
-color: #36a93b;
-text-align: center;
-
+  color: #36a93b;
+  text-align: center;
 }
+
 hr{
-    height: 10px;
-    width: 50%;
-    background-color: aqua;
-    }
+  height: 10px;
+  width: 50%;
+  background-color: aqua;
+}
 
 img {
-    width: 70%;
-    margin: 0px;
-    
-    border: 5px solid gold;
+  width: 70%;
+  margin: 0px;
+  border: 5px solid gold;
 }
 
-
 .ku {
-    clear: both;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 50%;
-    text-align: center;
-    border: solid green;
-    
-    
-
-
-    
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  border: solid green;
 }
 
 .mov {
-    float: left;
-    width: 49%;
-    height: 100%;
-    margin: 0;
-    
-    border: solid red;
-    
-    
-    
+  float: left;
+  width: 49%;
+  height: 100%;
+  margin: 0;
+  border: solid red;
 }
 
-
-
-
-
-
-
-
 .syousai {
-    border: solid blue;
-    height: 90%;
-    padding: 0px;
-    width: 80%;
-    margin: 0;
-    float: left;
-    
-    
-    
-    
-    
-    
+  border: solid blue;
+  height: 90%;
+  padding: 0px;
+  width: 80%;
+  margin: 0;
+  float: left;
 }
 
 .syousai p {
-    padding: 0px;
-    margin: 3px;
-    
-    border: solid black;
-    width: 30%;
-    
+  padding: 0px;
+  margin: 3px;
+  border: solid black;
+  width: 30%;
 }
 
 .rank {
-    width: 20%;
-    height: 20%;
-    margin: 0;
-    padding-left: 30px;
-border: solid yellow;
-    float: left;
-    font-size: 40px;
-
+  width: 20%;
+  height: 20%;
+  margin: 0;
+  padding-left: 30px;
+  border: solid yellow;
+  float: left;
+  font-size: 40px;
 }
 
-
-
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-}
-
-
-.syousai button {
-   
-   
+  margin: 0;
+  height: 100%;
 }
 
 .mozi {
-    
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: center;
-    border: solid black;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  border: solid black;
+  display: flex;
    
 }   
 
